@@ -104,20 +104,17 @@ article.card-three h2 {
   text-align: center;
 }
 
-article.card-three button {
+article.card-three a {
   font: italic 400 1.6rem "Noto Serif", serif;
+  text-decoration: none;
+  color: black;
   background-color: #01fde9;
   border-style: none;
   text-align: center;
   padding: 5px 20px;
 }
 
-button a {
-  text-decoration: none;
-  color: black;
-}
-
-article.card-three button:hover {
+article.card-three a:hover {
   background-color: #007c72;
   color: white;
 }
