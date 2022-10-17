@@ -6,7 +6,7 @@ html {
 body {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
-  /* changed background-color to more easily see white card */
+  /* changed background-color to more easily see white cards */
   background-color: hsl(0, 0%, 75%);
 }
 
