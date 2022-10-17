@@ -26,7 +26,7 @@ p {
 
 /* ⬇ step 1 ⬇ */
 
-article.card-one {
+.card-one {
   border-radius: 5px;
   background-color: hsl(0, 0%, 100%);
   width: 500px;
@@ -39,7 +39,7 @@ article.card-one {
 
 /* ⬇ step 2 ⬇ */
 
-article.card-two {
+.card-two {
   border-radius: 30px;
   background-color: hsl(234, 12%, 34%);
   width: 560px;
@@ -54,14 +54,14 @@ article.card-two {
   background-size: cover;
 }
 
-article.card-two h2,
-article.card-two p {
+.card-two h2,
+.card-two p {
   color: white;
 }
 
 /* ⬇ step 3 ⬇ */
 
-article.card-three {
+.card-three {
   background: rgb(187, 198, 177);
   width: 280px;
   height: 400px;
@@ -69,15 +69,14 @@ article.card-three {
   padding: 30px;
   background-image: linear-gradient(
       -180deg,
-      rgba(160,177,163,0.25) 0%,
+      rgba(160, 177, 163, 0.25) 0%,
       rgba(4, 27, 36, 0.75) 100%
     ),
-    /* image from Mario Esposito on Unsplash */
-    url("images/caracal.jpeg");
+    /* image from Mario Esposito on Unsplash */ url("images/caracal.jpeg");
   background-size: cover;
 }
 
-article.card-three p.logo {
+.card-three p.logo {
   font: 700 2.4rem "Chivo", sans-serif;
   color: #01fde9;
   text-align: left;
@@ -85,26 +84,29 @@ article.card-three p.logo {
   margin-top: -20px;
 }
 
-article.card-three p.question {
+.card-three p.question {
   font: italic 400 1.6rem "Noto Serif", serif;
-  color: white;
-  text-align: center;
-  padding-top: 250px;
+  color: inherit;
 }
 
-article.card-three h2 {
+.card-three h2 {
   font: 800 3rem "Fira Sans Extra Condensed", sans-serif;
-  color: white;
-  text-align: center;
+  color: inherit;
   margin-top: -15px;
   margin-bottom: 10px;
+}
+
+.card-three .text-container {
+  text-align: center;
+  color:white;
+  padding-top:240px;
 }
 
 .button-container {
   text-align: center;
 }
 
-article.card-three a {
+.card-three a {
   font: italic 400 1.6rem "Noto Serif", serif;
   text-decoration: none;
   color: black;
@@ -114,7 +116,7 @@ article.card-three a {
   padding: 5px 20px;
 }
 
-article.card-three a:hover {
+.card-three a:hover {
   background-color: #ce6563;
   color: white;
 }
@@ -162,7 +164,17 @@ article.card-three a:hover {
   );
 }
 
-article.card-four {
+.country {
+  color: #4b6287;
+}
+
+.tags {
+  word-spacing: 3px;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+.card-four {
   font-family: "Fira Sans", sans-serif;
   border-radius: 2px;
   background-color: white;
@@ -171,23 +183,16 @@ article.card-four {
   padding-bottom: 35px;
 }
 
-article.card-four p,
-article.card-four h2 {
+.card-four h2 {
   margin: 10px 50px;
 }
 
-article.card-four p {
-  word-spacing: 3px;
-  padding-top: 25px;
-  color: #4b6287;
-}
-
-article.card-four h2 {
+.card-four h2 {
   font-weight: 400;
   color: #2c292a;
 }
 
-article.card-four img {
+.card-four img {
   border-radius: 2px 2px 0px 0px;
   object-fit: cover;
   width: 100%;
